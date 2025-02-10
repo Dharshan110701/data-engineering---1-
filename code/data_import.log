@@ -1,0 +1,47 @@
+2024-07-16 03:03:10,024 INFO:Instantiated <InsecureClient(url='http://100.118.221.23:9870')>.
+2024-07-16 03:03:10,068 INFO:Processing table: Olympiad from path: /home/hadoop/data/nameNode/data/Olympiad.csv
+2024-07-16 03:03:10,068 INFO:Reading file '/home/hadoop/data/nameNode/data/Olympiad.csv'.
+2024-07-16 03:03:10,069 DEBUG:Resolved path '/home/hadoop/data/nameNode/data/Olympiad.csv' to '/home/hadoop/data/nameNode/data/Olympiad.csv'.
+2024-07-16 03:03:10,071 DEBUG:Starting new HTTP connection (1): 100.118.221.23:9870
+2024-07-16 03:03:10,095 DEBUG:http://100.118.221.23:9870 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/Olympiad.csv?user.name=hadoop&offset=0&op=OPEN HTTP/1.1" 307 0
+2024-07-16 03:03:10,096 DEBUG:Starting new HTTP connection (1): master-node.tail034143.ts.net:9864
+2024-07-16 03:03:10,167 DEBUG:http://master-node.tail034143.ts.net:9864 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/Olympiad.csv?op=OPEN&user.name=hadoop&namenoderpcaddress=master-node:9000&offset=0 HTTP/1.1" 200 686
+2024-07-16 03:03:10,167 INFO:Reading CSV file from HDFS path: /home/hadoop/data/nameNode/data/Olympiad.csv
+2024-07-16 03:03:10,169 DEBUG:Closed response for reading file '/home/hadoop/data/nameNode/data/Olympiad.csv'.
+2024-07-16 03:03:10,240 INFO:Successfully inserted data into Olympiad
+2024-07-16 03:03:10,240 INFO:Processing table: ContinentalMedals from path: /home/hadoop/data/nameNode/data/ContinentalMedals.csv
+2024-07-16 03:03:10,240 INFO:Reading file '/home/hadoop/data/nameNode/data/ContinentalMedals.csv'.
+2024-07-16 03:03:10,240 DEBUG:Resolved path '/home/hadoop/data/nameNode/data/ContinentalMedals.csv' to '/home/hadoop/data/nameNode/data/ContinentalMedals.csv'.
+2024-07-16 03:03:10,259 DEBUG:http://100.118.221.23:9870 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/ContinentalMedals.csv?user.name=hadoop&offset=0&op=OPEN HTTP/1.1" 307 0
+2024-07-16 03:03:10,261 DEBUG:Resetting dropped connection: master-node.tail034143.ts.net
+2024-07-16 03:03:10,287 DEBUG:http://master-node.tail034143.ts.net:9864 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/ContinentalMedals.csv?op=OPEN&user.name=hadoop&namenoderpcaddress=master-node:9000&offset=0 HTTP/1.1" 200 780
+2024-07-16 03:03:10,287 INFO:Reading CSV file from HDFS path: /home/hadoop/data/nameNode/data/ContinentalMedals.csv
+2024-07-16 03:03:10,290 DEBUG:Closed response for reading file '/home/hadoop/data/nameNode/data/ContinentalMedals.csv'.
+2024-07-16 03:03:10,336 INFO:Successfully inserted data into ContinentalMedals
+2024-07-16 03:03:10,336 INFO:Processing table: Sports from path: /home/hadoop/data/nameNode/data/Sports.csv
+2024-07-16 03:03:10,336 INFO:Reading file '/home/hadoop/data/nameNode/data/Sports.csv'.
+2024-07-16 03:03:10,336 DEBUG:Resolved path '/home/hadoop/data/nameNode/data/Sports.csv' to '/home/hadoop/data/nameNode/data/Sports.csv'.
+2024-07-16 03:03:10,355 DEBUG:http://100.118.221.23:9870 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/Sports.csv?user.name=hadoop&offset=0&op=OPEN HTTP/1.1" 307 0
+2024-07-16 03:03:10,356 DEBUG:Resetting dropped connection: master-node.tail034143.ts.net
+2024-07-16 03:03:10,386 DEBUG:http://master-node.tail034143.ts.net:9864 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/Sports.csv?op=OPEN&user.name=hadoop&namenoderpcaddress=master-node:9000&offset=0 HTTP/1.1" 200 4686
+2024-07-16 03:03:10,386 INFO:Reading CSV file from HDFS path: /home/hadoop/data/nameNode/data/Sports.csv
+2024-07-16 03:03:10,389 DEBUG:Closed response for reading file '/home/hadoop/data/nameNode/data/Sports.csv'.
+2024-07-16 03:03:10,433 INFO:Successfully inserted data into Sports
+2024-07-16 03:03:10,435 INFO:Processing table: AthletesMedals from path: /home/hadoop/data/nameNode/data/AthletesMedals.csv
+2024-07-16 03:03:10,435 INFO:Reading file '/home/hadoop/data/nameNode/data/AthletesMedals.csv'.
+2024-07-16 03:03:10,435 DEBUG:Resolved path '/home/hadoop/data/nameNode/data/AthletesMedals.csv' to '/home/hadoop/data/nameNode/data/AthletesMedals.csv'.
+2024-07-16 03:03:10,461 DEBUG:http://100.118.221.23:9870 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/AthletesMedals.csv?user.name=hadoop&offset=0&op=OPEN HTTP/1.1" 307 0
+2024-07-16 03:03:10,463 DEBUG:Resetting dropped connection: master-node.tail034143.ts.net
+2024-07-16 03:03:10,491 DEBUG:http://master-node.tail034143.ts.net:9864 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/AthletesMedals.csv?op=OPEN&user.name=hadoop&namenoderpcaddress=master-node:9000&offset=0 HTTP/1.1" 200 3638
+2024-07-16 03:03:10,492 INFO:Reading CSV file from HDFS path: /home/hadoop/data/nameNode/data/AthletesMedals.csv
+2024-07-16 03:03:10,493 DEBUG:Closed response for reading file '/home/hadoop/data/nameNode/data/AthletesMedals.csv'.
+2024-07-16 03:03:10,532 INFO:Successfully inserted data into AthletesMedals
+2024-07-16 03:03:10,532 INFO:Processing table: CountryMedals from path: /home/hadoop/data/nameNode/data/CountryMedals.csv
+2024-07-16 03:03:10,532 INFO:Reading file '/home/hadoop/data/nameNode/data/CountryMedals.csv'.
+2024-07-16 03:03:10,532 DEBUG:Resolved path '/home/hadoop/data/nameNode/data/CountryMedals.csv' to '/home/hadoop/data/nameNode/data/CountryMedals.csv'.
+2024-07-16 03:03:10,551 DEBUG:http://100.118.221.23:9870 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/CountryMedals.csv?user.name=hadoop&offset=0&op=OPEN HTTP/1.1" 307 0
+2024-07-16 03:03:10,552 DEBUG:Resetting dropped connection: master-node.tail034143.ts.net
+2024-07-16 03:03:10,584 DEBUG:http://master-node.tail034143.ts.net:9864 "GET /webhdfs/v1/home/hadoop/data/nameNode/data/CountryMedals.csv?op=OPEN&user.name=hadoop&namenoderpcaddress=master-node:9000&offset=0 HTTP/1.1" 200 25043
+2024-07-16 03:03:10,585 INFO:Reading CSV file from HDFS path: /home/hadoop/data/nameNode/data/CountryMedals.csv
+2024-07-16 03:03:10,597 DEBUG:Closed response for reading file '/home/hadoop/data/nameNode/data/CountryMedals.csv'.
+2024-07-16 03:03:10,667 INFO:Successfully inserted data into CountryMedals
